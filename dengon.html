@@ -4,8 +4,8 @@
  <head>
    <meta charset="utf-8"/>
    <script>
-function 伝言する() {
-  if (入力内容.value === "") 
+function 伝言する(){
+  if (入力内容.value === ""){ 
     alert("内容を入れてください");
   } else {
     伝言エリア.innerText = 入力内容.value;
@@ -13,8 +13,8 @@ function 伝言する() {
   }
 }
 </script>
- </head>
- <body>
+</head>
+<body>
   伝言板
   <p id="伝言エリア">伝言はまだありません</p> 
  <input id="入力内容"><button onclick="伝言する();">セット</button>
